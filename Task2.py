@@ -11,7 +11,7 @@ nltk.download('punkt')
 nltk.download('stopwords')
 nltk.download('wordnet')
 
-df = pd.read_csv(r"C:\Users\Talha Saeed\PycharmProjects\TextSentimentAnalysis\IMDB\IMDB Dataset.csv")
+df = pd.read_csv(r"C:\Users\Talha Saeed\PycharmProjects\TextSentimentAnalysis\IMDB.csv")
 
 print(df.head())
 
